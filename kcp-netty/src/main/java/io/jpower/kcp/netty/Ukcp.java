@@ -55,7 +55,12 @@ public class Ukcp {
                 break;
         }
     }
-
+    public void input(ByteBuf data) throws IOException {
+        int ret = kcp.input(data);
+            default:
+                break;
+       }
+}
     /**
      * Receives ByteBufs.
      *
