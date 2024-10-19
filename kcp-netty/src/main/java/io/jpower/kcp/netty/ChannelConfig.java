@@ -2,7 +2,7 @@ package io.jpower.kcp.netty;
 
 import io.jpower.kcp.netty.erasure.FecAdapt;
 import io.jpower.kcp.netty.threadPool.IMessageExecutorPool;
-import io.jpower.kcp.netty.netty.NettyMessageExecutorPool;
+import io.jpower.kcp.netty.threadPool.netty.NettyMessageExecutorPool;
 
 public class ChannelConfig {
    public static final int crc32Size = 4;
