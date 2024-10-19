@@ -21,3 +21,8 @@ jobs:
       run: chmod +x mvnw
     - name: Build with Maven
       run: ./mvnw -B package --file pom.xml
+    - name: Upload build
+      uses: actions/upload-artifact@v3
+      with:
+          name: netty
+          path: kcp-example/target/kcp-example-1.5.1.jar
