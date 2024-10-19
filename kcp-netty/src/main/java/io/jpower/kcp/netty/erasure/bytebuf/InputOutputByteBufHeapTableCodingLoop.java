@@ -4,11 +4,11 @@
  * Could not load the following classes:
  *  io.netty.buffer.ByteBuf
  */
-package kcp.highway.erasure.bytebuf;
+package io.jpower.kcp.netty.erasure.bytebuf;
 
 import io.netty.buffer.ByteBuf;
-import kcp.highway.erasure.Galois;
-import kcp.highway.erasure.bytebuf.ByteBufCodingLoopBase;
+import io.jpower.kcp.netty.erasure.Galois;
+import io.jpower.kcp.netty.erasure.bytebuf.ByteBufCodingLoopBase;
 
 public class InputOutputByteBufHeapTableCodingLoop
 extends ByteBufCodingLoopBase {

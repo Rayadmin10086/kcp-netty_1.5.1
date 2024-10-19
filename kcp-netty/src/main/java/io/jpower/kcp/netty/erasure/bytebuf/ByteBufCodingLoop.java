@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  io.netty.buffer.ByteBuf
  */
-package kcp.highway.erasure.bytebuf;
+package io.jpower.kcp.netty.erasure.bytebuf;
 
 import io.netty.buffer.ByteBuf;
 
