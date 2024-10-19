@@ -5,8 +5,8 @@ import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 
-class KcpServer$1 extends ChannelInitializer<Channel> {
-   KcpServer$1(KcpServer this$0, ChannelConfig var2, KcpListener var3) {
+class KcpServer$idk extends ChannelInitializer<Channel> {
+   KcpServer$idk(KcpServer this$0, ChannelConfig var2, KcpListener var3) {
       this.this$0 = this$0;
       this.val$channelConfig = var2;
       this.val$kcpListener = var3;
