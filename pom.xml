@@ -67,7 +67,8 @@
          <groupId>org.graalvm.sdk</groupId>
          <artifactId>graal-sdk</artifactId>
           <version>${graalvm.version}</version>
-          <scope>provided</scope>
+         <type>pom</type>
+          <scope>import</scope>
           </dependency>
             <dependency>
              <groupId>io.netty</groupId>
