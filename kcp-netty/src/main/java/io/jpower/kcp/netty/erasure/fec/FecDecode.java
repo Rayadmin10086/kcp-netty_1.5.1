@@ -211,8 +211,10 @@ implements IFecDecode {
             }
             i = 0;
             while (true) {
-                if (i < newQ.size()) ** break;
-                continue block0;
+                if (i < newQ.size()) {
+                    break;  // 退出循环
+                    continue block0;
+                }
                 if (newQ.get(i) != q.get(i)) {
                     System.out.println();
                 }
