@@ -1,7 +1,7 @@
 /*
  * Decompiled with CFR 0.152.
  */
-package kcp.highway.erasure.fec;
+package io.jpower.kcp.netty.erasure.fec;
 
 import java.util.concurrent.atomic.LongAdder;
 

@@ -5,13 +5,13 @@
  *  io.netty.buffer.ByteBuf
  *  io.netty.buffer.ByteBufAllocator
  */
-package kcp.highway.erasure.fec;
+package io.jpower.kcp.netty.erasure.fec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
-import kcp.highway.erasure.IFecEncode;
-import kcp.highway.erasure.ReedSolomon;
-import kcp.highway.erasure.fec.Fec;
+import io.jpower.kcp.netty.erasure.IFecEncode;
+import io.jpower.kcp.netty.erasure.ReedSolomon;
+import io.jpower.kcp.netty.erasure.fec.Fec;
 
 public class FecEncode
 implements IFecEncode {

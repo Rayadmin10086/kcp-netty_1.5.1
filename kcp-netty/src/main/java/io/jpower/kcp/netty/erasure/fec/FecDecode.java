@@ -5,20 +5,20 @@
  *  io.netty.buffer.ByteBuf
  *  io.netty.buffer.ByteBufAllocator
  */
-package kcp.highway.erasure.fec;
+package io.jpower.kcp.netty.erasure.fec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import kcp.highway.erasure.IFecDecode;
-import kcp.highway.erasure.ReedSolomon;
-import kcp.highway.erasure.fec.Fec;
-import kcp.highway.erasure.fec.FecException;
-import kcp.highway.erasure.fec.FecPacket;
-import kcp.highway.erasure.fec.MyArrayList;
-import kcp.highway.erasure.fec.Snmp;
+import io.jpower.kcp.netty.erasure.IFecDecode;
+import io.jpower.kcp.netty.erasure.ReedSolomon;
+import io.jpower.kcp.netty.erasure.fec.Fec;
+import io.jpower.kcp.netty.erasure.fec.FecException;
+import io.jpower.kcp.netty.erasure.fec.FecPacket;
+import io.jpower.kcp.netty.erasure.fec.MyArrayList;
+import io.jpower.kcp.netty.erasure.fec.Snmp;
 
 public class FecDecode
 implements IFecDecode {
@@ -211,10 +211,8 @@ implements IFecDecode {
             }
             i = 0;
             while (true) {
-                if (i < newQ.size()) {
-                    break;  // 退出循环
-                    continue block0;
-                }
+                if (i < newQ.size()) ** break;
+                continue block0;
                 if (newQ.get(i) != q.get(i)) {
                     System.out.println();
                 }

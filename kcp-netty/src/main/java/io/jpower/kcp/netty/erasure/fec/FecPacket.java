@@ -6,7 +6,7 @@
  *  io.netty.util.Recycler
  *  io.netty.util.Recycler$Handle
  */
-package kcp.highway.erasure.fec;
+package io.jpower.kcp.netty.erasure.fec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.util.Recycler;
