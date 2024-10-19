@@ -16,6 +16,11 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
+    - name: Setup GraalVM
+    - uses: graalvm/setup-graalvm@v1
+      with:
+        java-version: '21'      # See 'Options' for more details
+        distribution: 'graalvm' # See 'Supported distributions' for available options        
     - name: Make Maven Runs Well
       run: chmod +x mvnw
     - name: Build with Maven
