@@ -20,7 +20,7 @@ import java.net.InetSocketAddress;
 import java.util.List;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
-import kcp.highway.KcpServer.1;
+import kcp.highway.KcpServer.idk;
 import kcp.highway.KcpServer.TimerThreadFactory;
 import kcp.highway.erasure.fec.Fec;
 import kcp.highway.threadPool.IMessageExecutorPool;
@@ -71,7 +71,7 @@ public class KcpServer {
 
       this.bootstrap.channel(channelClass);
       this.bootstrap.group(this.group);
-      this.bootstrap.handler(new 1(this, channelConfig, kcpListener));
+      this.bootstrap.handler(new idk(this, channelConfig, kcpListener));
       this.bootstrap.option(ChannelOption.SO_REUSEADDR, true);
 
       for (InetSocketAddress addres : addresses) {
