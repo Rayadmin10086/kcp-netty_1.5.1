@@ -32,14 +32,14 @@
 
     <developers>
         <developer>
-            <id>szhnet</id>
-            <name>Zheng Sun</name>
-            <email>szhnet@gmail.com</email>
+            <id>rayadmin10086</id>
+            <name>Feng Rui</name>
+            <email>fengrui@fengrui.link</email>
         </developer>
     </developers>
 
     <scm>
-        <url>git@github.com:szhnet/kcp-netty.git</url>
+        <url>https://github.com/Rayadmin10086/netty_1.5.1.git</url>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
     </scm>
@@ -93,6 +93,11 @@
                 <groupId>org.easymock</groupId>
                 <artifactId>easymock</artifactId>
                 <version>3.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.auto.service</groupId>
+                <artifactId>google-auto-service</artifactId>
+                <version>1.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
