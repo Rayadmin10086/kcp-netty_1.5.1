@@ -127,7 +127,7 @@
     <artifactId>byte-buddy</artifactId>
     <version>1.15.5</version> 
      <type>pom</type>
-          <scope>import</scope>
+          <scope>compile</scope>
           </dependency> 
         </dependencies>
     </dependencyManagement>
