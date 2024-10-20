@@ -58,7 +58,6 @@
 
     <modules>
         <module>kcp-netty</module>
-        <module>kcp-example</module>
     </modules>
 
     <dependencyManagement>
