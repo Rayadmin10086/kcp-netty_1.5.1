@@ -115,14 +115,12 @@
             <type>pom</type>
             <scope>import</scope>
             </dependency>
-         <dependencies>
     <dependency>
         <groupId>io.projectreactor</groupId>
         <artifactId>reactor-core</artifactId>
          <version>2023.0.8</version>
              <scope>import</scope>
     </dependency>
-</dependencies>
           <dependency>
     <groupId>net.bytebuddy</groupId>
     <artifactId>byte-buddy</artifactId>
